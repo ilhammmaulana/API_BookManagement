@@ -1,0 +1,33 @@
+
+###
+POST http://localhost:5000/user/register HTTP/1.1
+content-type: application/json
+
+{
+    "username" : "ilham",
+    "password" : "",
+}
+
+
+###
+POST http://localhost:5000/login HTTP/1.1
+content-type: application/json
+
+{
+    "username" : "ilham",
+    "password" : "12345"
+}
+
+
+###
+POST http://localhost:5000/user/register HTTP/1.1
+content-type: application/json
+
+{
+    "username" : "ilham",
+    "password" : "12345",
+    "confirmPassword" : "12345"
+
+}
+
+
